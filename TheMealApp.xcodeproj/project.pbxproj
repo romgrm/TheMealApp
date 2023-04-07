@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		618B78A129D41EF600910386 /* TheMealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78A029D41EF600910386 /* TheMealApp.swift */; };
-		618B78A329D41EF600910386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78A229D41EF600910386 /* ContentView.swift */; };
+		618B78A329D41EF600910386 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78A229D41EF600910386 /* HomePage.swift */; };
 		618B78A529D41EF800910386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618B78A429D41EF800910386 /* Assets.xcassets */; };
 		618B78A829D41EF800910386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618B78A729D41EF800910386 /* Preview Assets.xcassets */; };
 		618B78B229D41EF900910386 /* TheMealAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78B129D41EF900910386 /* TheMealAppTests.swift */; };
 		618B78BC29D41EF900910386 /* TheMealAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78BB29D41EF900910386 /* TheMealAppUITests.swift */; };
 		618B78BE29D41EF900910386 /* TheMealAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78BD29D41EF900910386 /* TheMealAppUITestsLaunchTests.swift */; };
+		619A9B8229E062D5009E723B /* FetchingCountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9B8129E062D5009E723B /* FetchingCountriesTests.swift */; };
+		619A9B8429E06ABA009E723B /* FetchingCountries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9B8329E06ABA009E723B /* FetchingCountries.swift */; };
+		619A9B8729E06BD9009E723B /* CountriesDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9B8629E06BD9009E723B /* CountriesDto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		618B789D29D41EF600910386 /* TheMealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		618B78A029D41EF600910386 /* TheMealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealApp.swift; sourceTree = "<group>"; };
-		618B78A229D41EF600910386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		618B78A229D41EF600910386 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		618B78A429D41EF800910386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		618B78A729D41EF800910386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		618B78AD29D41EF900910386 /* TheMealAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMealAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		618B78B729D41EF900910386 /* TheMealAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMealAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		618B78BB29D41EF900910386 /* TheMealAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealAppUITests.swift; sourceTree = "<group>"; };
 		618B78BD29D41EF900910386 /* TheMealAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		619A9B8129E062D5009E723B /* FetchingCountriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingCountriesTests.swift; sourceTree = "<group>"; };
+		619A9B8329E06ABA009E723B /* FetchingCountries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingCountries.swift; sourceTree = "<group>"; };
+		619A9B8629E06BD9009E723B /* CountriesDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		618B789F29D41EF600910386 /* TheMealApp */ = {
 			isa = PBXGroup;
 			children = (
+				619A9B8529E06BC9009E723B /* dto */,
 				618B78A029D41EF600910386 /* TheMealApp.swift */,
-				618B78A229D41EF600910386 /* ContentView.swift */,
+				618B78A229D41EF600910386 /* HomePage.swift */,
 				618B78A429D41EF800910386 /* Assets.xcassets */,
 				618B78A629D41EF800910386 /* Preview Content */,
+				619A9B8329E06ABA009E723B /* FetchingCountries.swift */,
 			);
 			path = TheMealApp;
 			sourceTree = "<group>";
@@ -114,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				618B78B129D41EF900910386 /* TheMealAppTests.swift */,
+				619A9B8129E062D5009E723B /* FetchingCountriesTests.swift */,
 			);
 			path = TheMealAppTests;
 			sourceTree = "<group>";
@@ -125,6 +134,14 @@
 				618B78BD29D41EF900910386 /* TheMealAppUITestsLaunchTests.swift */,
 			);
 			path = TheMealAppUITests;
+			sourceTree = "<group>";
+		};
+		619A9B8529E06BC9009E723B /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				619A9B8629E06BD9009E723B /* CountriesDto.swift */,
+			);
+			path = dto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618B78A329D41EF600910386 /* ContentView.swift in Sources */,
+				618B78A329D41EF600910386 /* HomePage.swift in Sources */,
 				618B78A129D41EF600910386 /* TheMealApp.swift in Sources */,
+				619A9B8429E06ABA009E723B /* FetchingCountries.swift in Sources */,
+				619A9B8729E06BD9009E723B /* CountriesDto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +285,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				619A9B8229E062D5009E723B /* FetchingCountriesTests.swift in Sources */,
 				618B78B229D41EF900910386 /* TheMealAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

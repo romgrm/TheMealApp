@@ -16,10 +16,9 @@ class FetchingCountriesTest: XCTestCase {
     
     func testFetchingAllCountriesSortedByAlphabeticalOrder() {
         //arrange
-        var countries : [CountriesDto] =  [CountriesDto(name: "France"), CountriesDto(name: "Canada")]
+        var countries : [CountriesDto] =  [CountriesDto.fixture(name:"France"), CountriesDto.fixture(name: "Canada")]
         
         //act
-        
         var result = fetchingAllCountriesSortedByAlphabeticalOrder(countries)
         //assert
         XCTAssertEqual(result[0].name,  "Canada")

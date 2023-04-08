@@ -8,11 +8,12 @@
 import SwiftUI
 
 struct HomePageView: View {
-    let countries : [CountriesDto] = [CountriesDto(name: "France"), CountriesDto(name: "Canada"), CountriesDto(name: "Brésil"), CountriesDto(name: "Japon")]
+    
+    let viewModel : HomePageViewModel
     
     var body: some View {
         HStack {
-        ForEach (fetchingAllCountriesSortedByAlphabeticalOrder(countries)) { country in
+            ForEach (viewModel.countries) { country in
             HStack {
                 /*@START_MENU_TOKEN@*/Text(country.name)/*@END_MENU_TOKEN@*/.foregroundColor(Color.black)
             }
@@ -27,6 +28,6 @@ struct HomePageView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        HomePageView()
+        HomePageView(viewModel: HomePageViewModel(countries))
     }
 }

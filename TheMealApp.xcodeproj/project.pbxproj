@@ -10,11 +10,13 @@
 		61177ECB29E15D5E0081BAB6 /* CountriesDtoFixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61177ECA29E15D5E0081BAB6 /* CountriesDtoFixture.swift */; };
 		61177ECD29E161280081BAB6 /* HomePageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61177ECC29E161280081BAB6 /* HomePageViewModel.swift */; };
 		61177ECF29E162FB0081BAB6 /* HomePageViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61177ECE29E162FB0081BAB6 /* HomePageViewModelTests.swift */; };
+		61733DD429EC5D7100A66E92 /* FetchingMealsByCountryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61733DD329EC5D7100A66E92 /* FetchingMealsByCountryTests.swift */; };
+		61733DD629EC677500A66E92 /* MealByCountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61733DD529EC677500A66E92 /* MealByCountryViewModel.swift */; };
+		61733DD829EC745300A66E92 /* MealDto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61733DD729EC745300A66E92 /* MealDto.swift */; };
 		618B78A129D41EF600910386 /* TheMealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78A029D41EF600910386 /* TheMealApp.swift */; };
 		618B78A329D41EF600910386 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78A229D41EF600910386 /* HomePage.swift */; };
 		618B78A529D41EF800910386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618B78A429D41EF800910386 /* Assets.xcassets */; };
 		618B78A829D41EF800910386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 618B78A729D41EF800910386 /* Preview Assets.xcassets */; };
-		618B78B229D41EF900910386 /* TheMealAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78B129D41EF900910386 /* TheMealAppTests.swift */; };
 		618B78BC29D41EF900910386 /* TheMealAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78BB29D41EF900910386 /* TheMealAppUITests.swift */; };
 		618B78BE29D41EF900910386 /* TheMealAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B78BD29D41EF900910386 /* TheMealAppUITestsLaunchTests.swift */; };
 		619A9B8229E062D5009E723B /* FetchingCountriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619A9B8129E062D5009E723B /* FetchingCountriesTests.swift */; };
@@ -43,13 +45,15 @@
 		61177ECA29E15D5E0081BAB6 /* CountriesDtoFixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesDtoFixture.swift; sourceTree = "<group>"; };
 		61177ECC29E161280081BAB6 /* HomePageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModel.swift; sourceTree = "<group>"; };
 		61177ECE29E162FB0081BAB6 /* HomePageViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewModelTests.swift; sourceTree = "<group>"; };
+		61733DD329EC5D7100A66E92 /* FetchingMealsByCountryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchingMealsByCountryTests.swift; sourceTree = "<group>"; };
+		61733DD529EC677500A66E92 /* MealByCountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealByCountryViewModel.swift; sourceTree = "<group>"; };
+		61733DD729EC745300A66E92 /* MealDto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDto.swift; sourceTree = "<group>"; };
 		618B789D29D41EF600910386 /* TheMealApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheMealApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		618B78A029D41EF600910386 /* TheMealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealApp.swift; sourceTree = "<group>"; };
 		618B78A229D41EF600910386 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		618B78A429D41EF800910386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		618B78A729D41EF800910386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		618B78AD29D41EF900910386 /* TheMealAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMealAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		618B78B129D41EF900910386 /* TheMealAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealAppTests.swift; sourceTree = "<group>"; };
 		618B78B729D41EF900910386 /* TheMealAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheMealAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		618B78BB29D41EF900910386 /* TheMealAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealAppUITests.swift; sourceTree = "<group>"; };
 		618B78BD29D41EF900910386 /* TheMealAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMealAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -83,6 +87,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61733DD029EC5D1500A66E92 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				61733DD329EC5D7100A66E92 /* FetchingMealsByCountryTests.swift */,
+				61177ECE29E162FB0081BAB6 /* HomePageViewModelTests.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		61733DD129EC5D2D00A66E92 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				619A9B8129E062D5009E723B /* FetchingCountriesTests.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		61733DD229EC5D3900A66E92 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				61177ECA29E15D5E0081BAB6 /* CountriesDtoFixture.swift */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
 		618B789429D41EF600910386 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +142,7 @@
 				618B78A629D41EF800910386 /* Preview Content */,
 				619A9B8329E06ABA009E723B /* FetchingCountries.swift */,
 				61177ECC29E161280081BAB6 /* HomePageViewModel.swift */,
+				61733DD529EC677500A66E92 /* MealByCountryViewModel.swift */,
 			);
 			path = TheMealApp;
 			sourceTree = "<group>";
@@ -128,10 +158,9 @@
 		618B78B029D41EF900910386 /* TheMealAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				618B78B129D41EF900910386 /* TheMealAppTests.swift */,
-				619A9B8129E062D5009E723B /* FetchingCountriesTests.swift */,
-				61177ECA29E15D5E0081BAB6 /* CountriesDtoFixture.swift */,
-				61177ECE29E162FB0081BAB6 /* HomePageViewModelTests.swift */,
+				61733DD229EC5D3900A66E92 /* Fixtures */,
+				61733DD129EC5D2D00A66E92 /* Functions */,
+				61733DD029EC5D1500A66E92 /* ViewModels */,
 			);
 			path = TheMealAppTests;
 			sourceTree = "<group>";
@@ -149,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				619A9B8629E06BD9009E723B /* CountriesDto.swift */,
+				61733DD729EC745300A66E92 /* MealDto.swift */,
 			);
 			path = dto;
 			sourceTree = "<group>";
@@ -283,10 +313,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61733DD829EC745300A66E92 /* MealDto.swift in Sources */,
 				618B78A329D41EF600910386 /* HomePage.swift in Sources */,
 				618B78A129D41EF600910386 /* TheMealApp.swift in Sources */,
 				619A9B8429E06ABA009E723B /* FetchingCountries.swift in Sources */,
 				619A9B8729E06BD9009E723B /* CountriesDto.swift in Sources */,
+				61733DD629EC677500A66E92 /* MealByCountryViewModel.swift in Sources */,
 				61177ECD29E161280081BAB6 /* HomePageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,8 +329,8 @@
 			files = (
 				61177ECF29E162FB0081BAB6 /* HomePageViewModelTests.swift in Sources */,
 				619A9B8229E062D5009E723B /* FetchingCountriesTests.swift in Sources */,
-				618B78B229D41EF900910386 /* TheMealAppTests.swift in Sources */,
 				61177ECB29E15D5E0081BAB6 /* CountriesDtoFixture.swift in Sources */,
+				61733DD429EC5D7100A66E92 /* FetchingMealsByCountryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

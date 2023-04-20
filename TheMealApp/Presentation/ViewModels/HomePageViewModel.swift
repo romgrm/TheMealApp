@@ -24,8 +24,6 @@ import Foundation
             DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                 self.currentState = .onSuccess(data: fetchingAllCountriesSortedByAlphabeticalOrder(countriesMock))
             }
-            
-            
         }
         
         func receiveSelectedCountryIdOnTap( id: String?) {

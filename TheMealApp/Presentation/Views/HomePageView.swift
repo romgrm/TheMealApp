@@ -9,12 +9,12 @@ import SwiftUI
 
 struct HomePageView: View {
     
-    @ObservedObject var viewModel = HomePageViewModel() //TODO: inject countries from Interactor -> Repository -> WebService later
+    @ObservedObject var viewModel = HomePageViewModel() 
     
     var body: some View {
         NavigationStack  {
             if case .onLoading = viewModel.currentState {
-                Text("waiting")
+                ProgressView()
             }
             if case .onSuccess(let countries) = viewModel.currentState {
                 HStack {

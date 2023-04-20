@@ -10,5 +10,5 @@
 import Foundation
 
 extension CountriesDto {
-    static func fixture (name : String = "name") -> CountriesDto { CountriesDto(name: name)}
+    static func fixture (id: String = "id" ,name : String = "name") -> CountriesDto { CountriesDto(id: id, name: name)}
 }

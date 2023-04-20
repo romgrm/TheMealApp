@@ -9,11 +9,13 @@ import SwiftUI
 
 @main
 struct TheMealApp: App {
+    let homePageViewModel = HomePageViewModel()
     var body: some Scene {
-        WindowGroup {
-            HomePageView(viewModel: HomePageViewModel(countries))
+        Group {
+            WindowGroup {
+                HomePageView(viewModel: homePageViewModel)
+            }
         }
     }
 }
 
- let countries : [CountriesDto] = [CountriesDto(name: "France"), CountriesDto(name: "Canada"), CountriesDto(name: "Brésil"), CountriesDto(name: "Japon")]
